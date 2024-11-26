@@ -7,11 +7,13 @@ function App() {
 
   return (
     <>
-      <h1>Oscar Larm</h1>
-      <div>
-        <a href="https://github.com/OscarLarm">
-          <img src={githubLogo} alt="Github link" className='logo' />
-        </a>
+      <div className="hero">
+      <div className='heroLogo'>
+          <a href="https://github.com/OscarLarm">
+            <img src={githubLogo} alt="Github link" className='logo'/>
+          </a>
+        </div>
+        <h1 className='heroText'>Hello! <br></br> My name is Oscar.</h1>
       </div>
     </>
   )
