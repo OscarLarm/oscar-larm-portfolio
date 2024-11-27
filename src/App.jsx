@@ -22,7 +22,7 @@ function App() {
             </div>
             </div>
             <div className='icon'>
-              <a href="https://github.com/OscarLarm"><img src="./src/assets/github-mark-white.svg" alt="https://github.com/OscarLarm" /></a>
+              <a href="https://github.com/OscarLarm"><img src={githubLogo} alt="https://github.com/OscarLarm" /></a>
             </div>
           </div>
         </div>
