@@ -9,30 +9,29 @@ function App() {
     <>
       <div className="hero">
         <div className='hero-content'>
-        <div className="hero-left">
-          <div className="hero-text">
-          <h1 className='hero-title'><span className='accent'>Oscar Larm</span></h1>
-          <hr className='seperator'></hr>
-            <p className="hero-subtitle">I am studying <span className='accent'><br></br>Software Engineering</span><br></br> at BTH</p>
-            <div className="hero-para">
-              <p><i>(Blekinge Institute of Technology)</i></p>
-            </div>
+          <div className="hero-left">
+            <div className="hero-text">
+              <h1 className='hero-title'><span className='accent'>Oscar Larm</span></h1>
+              <hr className='seperator'></hr>
+              <p className="hero-subtitle">Studying <span className='accent'><br></br>Software Engineering</span><br></br>BTH, Sweden</p>
+              <div className="hero-para text-secondary">
+                <p className=''>(Blekinge Institute of Technology)</p>
+              </div>
             </div>
             <div className='icon'>
               <a href="https://github.com/OscarLarm"><img src={githubLogo} alt="https://github.com/OscarLarm" /></a>
             </div>
           </div>
-        <div className="hero-right">
-          <img className="tempImg" src="https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg" alt="" />
+          <div className="hero-right">
+            <img className="tempImg" src="https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg" alt="" />
+          </div>
         </div>
-        
-        </div>
-        </div>
+      </div>
 
-        <div className="testSection">
+      <div className="testSection">
 
-        </div>
-          </>
+      </div>
+    </>
   )
 }
 
