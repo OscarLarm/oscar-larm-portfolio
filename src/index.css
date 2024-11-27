@@ -1,6 +1,6 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,7 +12,8 @@ html {
   --primary-bg: #111113;
   --accent: #23AFD0;
   --text-primary: #EDEEF0;
-  --seperator: #12677E;
+  --text-secondary: #B0B4BA;
+  --seperator: #B0B4BA;
 }
 
 body {
@@ -25,6 +26,10 @@ body {
   color: var(--text-primary);
 }
 
-.accent{
-  color:var(--accent);
+.accent {
+  color: var(--accent);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
 }
