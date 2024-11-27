@@ -4,16 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
-  color: white;
-  background-color: darkslategrey;
-  width: 100vw;
-  min-height: 100vh;
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
+  --primary-bg: #111113;
+  --accent: #23AFD0;
+  --text-primary: #EDEEF0;
+  --seperator: #12677E;
+}
+
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+}
+
+.accent{
+  color:var(--accent);
 }
