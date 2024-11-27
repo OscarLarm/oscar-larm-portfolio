@@ -130,11 +130,8 @@
   .hero-para {
     font-size: 1rem;
   }
-  
+
   .seperator {
     max-width: 100%;
   }
-
-  @media (min-width: 1px) and (max-width: 640px) 
-
 }
