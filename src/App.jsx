@@ -11,7 +11,7 @@ function App() {
             <div className="hero-text">
               <h1 className='hero-title'><span className='accent'>Oscar Larm</span></h1>
               <hr className='seperator'></hr>
-              <p className="hero-subtitle">Studying <span className='accent'><br></br>Software Engineering</span><br></br>BTH, Sweden</p>
+              <p className="hero-subtitle">Studying <span className='accent text-software-engineering'><br></br>Software Engineering</span><br></br>BTH, Sweden</p>
               <div className="hero-para text-secondary">
                 <p className=''>(Blekinge Institute of Technology)</p>
               </div>
